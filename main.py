@@ -7,4 +7,4 @@ columns = splitFile.readCSV(file)
 #write to new file
 newFile = write.writeCSV(file, columns)
 #drop file via SFTP
-sftp.upload(newFile)
+#sftp.upload(newFile)
